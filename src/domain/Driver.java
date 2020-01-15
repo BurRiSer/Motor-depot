@@ -9,8 +9,6 @@ public class Driver extends Entity {
     private User user;
     private Vehicle vehicle;
 
-
-
     public String getName() {
         return name;
     }

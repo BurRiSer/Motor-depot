@@ -8,7 +8,7 @@ public enum VehicleType {
 
     private String name;
 
-    private VehicleType(String name) {
+    VehicleType(String name) {
         this.name = name;
     }
 
