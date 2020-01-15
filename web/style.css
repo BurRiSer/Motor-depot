@@ -1,0 +1,217 @@
+/*здесь нет никакой структуры, просто самодеядельность*/
+body{
+    padding-top: inherit;
+    background: darkslategrey;
+}
+h2 {
+    background-color: #969696;
+}
+
+header {
+    background: midnightblue;
+    color: white;
+    text-align: center;
+    border: 1px outset darkslateblue;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    font-family: cursive;
+}
+
+article {
+    background: darkgrey;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+footer {
+    width: 100%;
+    background: midnightblue;
+    color: white;
+    text-align: center;
+    border: 1px outset midnightblue;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    padding: 32px 0 64px 0;
+    margin: 176px 0 0 0;
+    font-family: cursive;
+}
+a.login-state{
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    border: 1px outset;
+    padding: 1px;
+    background: dimgray;
+}
+
+p.login-state {
+    text-align: right;
+    background: lightslategray;
+}
+
+p.menu {
+    text-align: center;
+}
+
+a.menu-button {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px 0 20px;
+    background: darkslateblue;
+    border: 1px outset darkslateblue;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    font-family: cursive;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+    border-collapse: collapse;
+    background: lightcyan;
+}
+
+td.empty {
+    padding: 0;
+}
+
+th, td.content {
+    border: 1px solid black;
+}
+
+th {
+    padding: 5px 10px;
+}
+
+td.content {
+    padding: 5px 30px 5px 10px;
+}
+
+form {
+    margin: 0 auto;
+    width: 480px;
+}
+
+form.important {
+    background: #FC4;
+    margin-bottom: 20px;
+}
+
+form label, form input, form select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+
+form label {
+    margin-top: 32px;
+}
+
+form.important label {
+    margin-top: 10px;
+}
+
+form input[readonly] {
+    background: #CCC;
+}
+
+a.edit, a.view, a.add-button, a.edit-button, a.order-button, a.back, form button {
+    display: inline-block;
+    border: 0;
+    min-width: 32px;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+    outline: 0;
+}
+
+a.order-button {
+    background: limegreen;
+    padding: 0 5px 0 32px;
+    margin: 3px;
+    border: 1px outset limegreen;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+
+a.add-button, a.edit-button, a.back, form button {
+    margin: 32px 5px 32px 0;
+    padding: 0 5px 0 32px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+form button {
+    cursor: pointer;
+}
+
+form button[disabled] {
+    color: #888;
+    cursor: default;
+    box-shadow: none;
+}
+
+a.edit, a.view, a.add-button, a.order-button, a.edit-button, a.back {
+    text-decoration: none;
+}
+
+a.edit {
+    background: yellowgreen;
+    padding: 0 5px 0 32px;
+    margin: 3px;
+    border: 1px outset yellowgreen;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+a.mail {
+    color: white;
+    text-decoration: none;
+}
+
+a.add-button {
+    background: limegreen;
+}
+
+a.edit-button {
+    background: yellowgreen;
+}
+
+a.back {
+    background: royalblue;
+}
+
+form button.save {
+    background: limegreen;
+}
+
+form button.delete {
+    background: orangered;
+}
+
+form button.reset {
+    background: goldenrod;
+}
+
+form button.password-reset {
+    background: goldenrod;
+}
+
+form button.login {
+    background: limegreen;
+    padding: 0 32px 0 32px;
+}
+
+form button.login {
+    margin: 52px 5px 32px 0;
+}
+
+p.error {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 480px;
+    text-align: center;
+    background: #C44;
+    border: 1px solid #400;
+    padding: 5px 20px;
+    color: #400;
+}
+
